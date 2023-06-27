@@ -1,0 +1,156 @@
+
+.left-side{
+  padding: 0 0.9375rem;
+  width: 15.5rem;
+}
+.right-side{
+  padding: 0 0.9375rem;
+}
+.content{
+  display: flex;
+}
+.product-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.aside+.aside {
+    margin-top: 30px;
+  }
+ 
+  
+  .aside>.aside-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0.9375rem 0px 30px;
+  }
+  
+  
+  .checkbox-filter>div+div {
+    margin-top: 0.625rem;
+  }
+  
+  .checkbox-filter .input-radio label, .checkbox-filter .input-checkbox label {
+    font-size: 0.75rem;
+  }
+  
+  .checkbox-filter .input-radio label small, .checkbox-filter .input-checkbox label small {
+    color: #8D99AE;
+  }
+  
+  
+  #price-slider {
+    margin-bottom: 0.9375rem;
+  }
+  
+  .price-filter .input-number {
+    display: inline-block;
+    width: calc(50% - 7px);
+  }
+  
+  .store-filter {
+    margin-bottom: 0.9375rem;
+    margin-top: 0.9375rem;
+    align-items: center;
+  }
+  
+  
+  .store-sort {
+    display: inline-block;
+  }
+  
+  .store-sort label {
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-right: 0.9375rem;
+  }
+  
+  
+  .store-grid {
+    float: right;
+  }
+  
+  .store-grid li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFF;
+    border: 1px solid #E4E7ED;
+    text-align: center;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  
+  .store-grid li+li {
+    margin-left: 5px;
+  }
+  
+  .store-grid li:hover {
+    background-color: #E4E7ED;
+    color: #D10024;
+  }
+  
+  .store-grid li.active {
+    background-color: #D10024;
+    border-color: #D10024;
+    color: #FFF;
+    cursor: default;
+  }
+  
+  .store-grid li a {
+    display: block;
+  }
+  
+  
+  .store-pagination {
+    float: right;
+  }
+  .pagiproduct{
+    float: left;
+  }
+  
+  .store-pagination li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #E4E7ED;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  
+  .store-pagination li+li {
+    margin-left: 5px;
+  }
+  
+  .store-pagination li:hover {
+    background-color: #E4E7ED;
+    color: #D10024;
+  }
+  
+  .store-pagination li.active {
+    background-color: #D10024;
+    border-color: #D10024;
+    color: #FFF;
+    font-weight: 500;
+    cursor: default;
+  }
+  
+  .store-pagination li a {
+    display: block;
+  }
+  
+  .store-qty {
+    margin-right: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+  .qtylabel{
+    display: flex;
+  }
